@@ -5,12 +5,13 @@ const LinkPrimario = styled.a`
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    text-decoration: none;    
+    text-decoration: none;
     color: ${props => props.theme.cores.branco};
     &:hover {
         color: ${props => props.theme.cores.dark.a};
     }
 `
+
 const LinkSecundario = styled.a`
     cursor: pointer;
     font-weight: 400;

@@ -1,8 +1,15 @@
-import { RouterProvider } from "react-router-dom"
-import { router } from "./router/router"
+import { Estilos } from "./componentes/EstilosGlobais/Estilos"
+import { ProvedorTema } from "./componentes/ProvedorTema/ProvedorTema"
+import { Router } from "./routes/router"
 
-function App () {
-  return (<RouterProvider router={router} />)
-} 
+export function App() {
+  return (
+    <ProvedorTema>
+      <Estilos />
+      <Router />
+    </ProvedorTema>
+  )
 
-export default App
+}
+
+
